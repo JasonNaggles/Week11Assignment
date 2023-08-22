@@ -4,8 +4,8 @@ let currentPlayer = "X";
 let cells = ["", "", "", "", "", "", "", "", ""];
 
 //Get the cells and reset button elements 
-let cellElements = document.querySelectorAll('td');
-let resetButton = document.getElementById('reset-button');
+let cellElements = document.querySelectorAll("td");
+let resetButton = document.getElementById("reset-button");
 
 //Add click event listeners to cells and reset button
 cellElements.forEach(function(cellElement, index) {
@@ -24,7 +24,7 @@ cellElements.forEach(function(cellElement, index) {
 });
 });
 
-resetButton.addEventListener("Click", resetGame);
+resetButton.addEventListener("click", resetGame);
 
 //Check if a player has won
 function checkWin() {
