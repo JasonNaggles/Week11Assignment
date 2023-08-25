@@ -32,6 +32,6 @@ function checkWin(player) {
 }
 
 function resetGame() {
-  cells.forEach(cell => cell.textContent = '');
+  cells.forEach(cell => cell.textContent = ''); // Restart the game with the player starting with X's
   currentPlayer = 'X';
 }
